@@ -1,0 +1,115 @@
+/* Body and background (Enhanced) */
+body {
+    font-family: 'Arial', sans-serif;
+    /* Updated gradient for a nice, deep look */
+    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+
+/* Container box (Enhanced) */
+.container {
+    /* Slightly less transparent background */
+    background-color: rgba(255, 255, 255, 0.1); 
+    /* Soft border for a modern look */
+    backdrop-filter: blur(10px); 
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+    /* More pronounced, but soft box shadow */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    /* Subtle border */
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+}
+
+/* Heading */
+h1 {
+    font-size: 32px;
+    /* Bright color for contrast */
+    color: #00ff99; 
+    margin-bottom: 10px;
+    /* Slight text shadow for depth */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Paragraph under heading */
+p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #ddd;
+}
+
+/* Input box */
+input[type="number"] {
+    padding: 12px;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #3498db; /* Blue border */
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    margin-bottom: 25px;
+    /* Smooth transition for focus */
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #00ff99;
+    outline: none;
+}
+
+/* Button (Enhanced) */
+button {
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    background-color: #ffdd57;
+    color: #333;
+    cursor: pointer;
+    transition: 0.3s;
+    /* Shadow for a 'lifted' effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #ffc107;
+    transform: translateY(-2px); /* Slight lift on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Result style */
+.result {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: rgba(0, 255, 153, 0.1); /* Light green background */
+    border: 1px solid #00ff99;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.result span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00ff99; /* Bright green grade */
+}
+
+/* Error message style */
+.error {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: rgba(255, 76, 76, 0.1); /* Light red background */
+    border: 1px solid #ff4c4c;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff4c4c; /* Bright red text */
+}
