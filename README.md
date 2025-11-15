@@ -65,8 +65,10 @@ gradechecker/
 │   └── index.html
 └── static/
     └── style.css
-Contributing
-Contributions, ideas, and feature requests are welcome! Please check the issues page.
+## Contributing
+
+Contributions, ideas, and feature requests are welcome! Please check the [issues page](https://github.com/Anik2059/GradeChecker/issues) for guidance.
+
 
 License
 MIT License
